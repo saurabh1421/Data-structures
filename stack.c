@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX 20 // you can alter th size of array by changing this
+#define MAX 50 // you can alter th size of array by changing this
 
 int st[MAX],top = -1;  // initialising an array of size max and top = -1 i.e stack is empty
 void push(int st[],int value); // funtion declartion
@@ -23,7 +23,7 @@ do
 	switch(option)
 	{
 		case 1 : 
-			printf("\n Enter the element to be pushed into stack");
+			printf("\n Enter the element to be pushed into stack: ");
 			scanf("%d",&value);
 			push(st,value); //calling funtion push and passing array and the value to be pushed
 			break;
