@@ -97,3 +97,5 @@ int main()
 
     printGraph(graph);
 }
+
+// git remote set-url origin NEW_URL
